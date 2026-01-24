@@ -160,9 +160,23 @@ console.log("Loops"); // for loop
 let s = 1;
 
 for (let i = 0; i < 100; i++) {
-  console.log(s + i);
-  
+  console.log(s + i);  
 }
+
+let obj = {  //  key in loops
+  name: "SSD",
+  role: "Programmer",
+  company: "SD AI"
+}
+
+for (const key in obj) {
+  console.log(key)
+}
+
+for (const c of "SSD") {
+  console.log(c)
+}
+
 </script>
 
 </body>
