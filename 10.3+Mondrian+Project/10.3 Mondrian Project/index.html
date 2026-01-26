@@ -39,7 +39,7 @@
     }
 
     .item {
-      background-color:  #F0F1EC;
+      background-color: #F0F1EC;
     }
 
     .red {
@@ -47,13 +47,13 @@
     }
 
     .white1 {
-     grid-column: span 3; 
+      grid-column: span 3;
     }
 
     .white2 {
-    grid-row: span 2;
+      grid-row: span 2;
     }
-     
+
     .white3 {
       grid-area: 2 / 2 / 4 / 4;
     }
@@ -74,46 +74,46 @@
     .black {
       background-color: #232629;
     }
-
   </style>
 </head>
 
 <body>
   <!-- Write your HTML here -->
 
-   <div class="container">
-   <div class="item red"></div>
-   <div class="item white1"></div>
-   <div class="item white2"></div>
-   <div class="item white3"></div>
+  <div class="container">
+    <div class="item red"></div>
+    <div class="item white1"></div>
+    <div class="item white2"></div>
+    <div class="item white3"></div>
 
-   <div class="item blue"></div>
-   <div class="item white4"></div>
+    <div class="item blue"></div>
+    <div class="item white4"></div>
 
-   <div class="item "></div>
-   <div class="item yellow"></div>
-   <div class="item black"></div>
-   </div>
-<script>
+    <div class="item "></div>
+    <div class="item yellow"></div>
+    <div class="item black"></div>
+  </div>
+  <script>
 
-  let i = 10; // do while loop
-  do {
-    console.log(i)
-    i++;
-  } while (i<6);
+    let i = 10; // do while loop
+    do {
+      console.log(i)
+      i++;
+    } while (i < 6);
 
-  function sum(a, b) {  // sum function
-  return a + b  
-  }
+    function sum(a, b, c = 4) {  // sum function
+      console.log(a, b, c)
+      return a + b + c
+    }
 
-  result1 = sum(3, 8)
-  result2 = sum(5, 18)
-  result3 = sum(9, 2)
+    result1 = sum(3, 8)
+    result2 = sum(5, 18)
+    result3 = sum(9, 2, 7) // default value
 
-  console.log("The sum of these numbers is: ", result1)
-  console.log("The sum of these numbers is: ", result2)
-  console.log("The sum of these numbers is: ", result3)
-</script>
+    console.log("The sum of these numbers is: ", result1)
+    console.log("The sum of these numbers is: ", result2)
+    console.log("The sum of these numbers is: ", result3)
+  </script>
 </body>
 
 </html>
