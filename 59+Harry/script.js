@@ -1,4 +1,4 @@
-let a = Number(prompt("Inter your value a "));
+let a = Number(prompt("Inter your value a "));  //  Faulty Calculator
 let b = Number(prompt("Inter your value b "));
 
 let random = Math.random();
