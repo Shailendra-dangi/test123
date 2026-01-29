@@ -1,4 +1,4 @@
-let a = Number(prompt("Inter your value a "));  //  Faulty Calculator
+/*let a = Number(prompt("Inter your value a "));  //  Faulty Calculator
 let b = Number(prompt("Inter your value b "));
 
 let random = Math.random();
@@ -21,4 +21,29 @@ if (random < 0.1) {
   console.log("Multipication Calculation:", a * b);
   console.log("Division Calculation:", a / b);
   console.log("Exponentiaton Calculation:", a ** b);
+}*/
+
+let random = Math.random()
+console.log(random)
+let a = prompt("Enter first number")
+let c = prompt("Enter operation")
+let b = prompt("Enter second number")
+
+let obj = {
+  "+": "-",
+  "*": "+",
+  "-": "/",
+  "/": "**",
+}
+
+
+if (random > 0.1) {
+  console.log(`The result is ${a} ${c} ${b}`)
+  alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
+
+}
+
+else {
+  c = obj[c]
+  alert(`The result is ${eval(`${a} ${c} ${b}`)}`)
 }
