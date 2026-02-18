@@ -7,6 +7,7 @@ if(d==0){return a}
 else if(d==1){return b}
 else if(d==2){return c}
 }
+
 function shopName(){
     let a="Engine"
     let b= "Foods"
@@ -16,6 +17,7 @@ if(d==0){return a}
 else if(d==1){return b}
 else if(d==2){return c}
 }
+
 function anotherWord(){
     let a="Bros"
     let b= "Limited"
