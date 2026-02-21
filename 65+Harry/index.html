@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+let ft = 1;
+
+let num = Math.floor(prompt("Inter the number for factorial"))
+for (let i = 2; i < num+1; i++) {
+    ft = ft*i;
+}
+
+alert(ft)
+
+let arr = [1,2,3,4,5,6];
+
+let fct = (a, b) =>{
+    return a*b;
+}
+
+console.log("factorial of 6 is => ", arr.reduce(fct));
+    </script>
+</body>
+</html>
