@@ -8,7 +8,7 @@
 <body>
     
     <script>
-    function getRandomColor() {
+   /* function getRandomColor() {
   var red = Math.floor(Math.random() * 256);
   var green = Math.floor(Math.random() * 256);
   var blue = Math.floor(Math.random() * 256);
@@ -20,8 +20,20 @@
 document.querySelectorAll(".box").forEach((e) => {
   e.style.backgroundColor = getRandomColor();
   e.style.color = getRandomColor();
-});
+}); */
 
+let colors=["red","green","Blue","Brown","black","grey","orange","purple"]
+let box = document.querySelectorAll(".box")
+let size = colors.length
+
+box.forEach(element => {
+    let random=Math.floor(Math.random()*size)
+    element.style.color=colors[random]
+});
+box.forEach(element => {
+    let random=Math.floor(Math.random()*size)
+    element.style.backgroundColor=colors[random]
+});
     </script>
 </body>
 </html>
