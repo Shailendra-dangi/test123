@@ -23,3 +23,10 @@ if (random < 0.1) {
   console.log("Division Calculation:", a / b);
   console.log("Exponentiaton Calculation:", a ** b);
 }
+
+let arr = [1,2,7,8,11]
+
+let newarr = arr.map((e, index, arr)=>{
+  return e**2
+})
+console.log(newarr)
