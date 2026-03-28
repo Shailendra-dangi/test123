@@ -1,3 +1,4 @@
+console.log("Selector");
 //let boxes = document.getElementsByClassName("box")
 //console.log(boxes)
 //boxes[2].Style.backgroundColor = "red"
